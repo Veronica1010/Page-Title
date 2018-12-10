@@ -1,0 +1,33 @@
+img{
+    width:200px;
+    height:200px;
+}
+h1{
+    font-family: 'Kaushan Script', cursive;
+    color:red;
+}
+h2{color:red;
+}
+#pics img{
+    width: 20%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+#pics {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 35px 0;
+}
+
+#pics img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+#header, #eagles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+}
